@@ -21,6 +21,7 @@ public class Anagram {
 			System.out.println(str1 + " and " + str2 + " is not an anagram");
 		}
 		
+		
 	}
 
 }

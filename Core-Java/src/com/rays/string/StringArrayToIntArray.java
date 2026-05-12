@@ -24,6 +24,8 @@ public class StringArrayToIntArray {
 			
 			System.out.print(intAr[i]);
 		}
+		
+		
 	}
 
 }

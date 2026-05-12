@@ -6,8 +6,9 @@ public class Concat {
 		
 		String a = "Krati";
 		String b = " Trivedi";
-		
+	
 		System.out.println(a.concat(b));
+		
 	}
 
 }
