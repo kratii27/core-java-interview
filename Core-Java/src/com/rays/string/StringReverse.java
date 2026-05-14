@@ -9,7 +9,7 @@ public class StringReverse {
 		for (int i = str.length() - 1; i >= 0; i--) {
 			char ch = str.charAt(i);
 			String newString = String.valueOf(ch);
-			System.out.print(newString);
+			
 		}
 		
 	}

@@ -16,11 +16,11 @@ public class CountVowel {
 		System.out.println(vowelCount);
 		
 		// using char array
-		char[] vowels  = { 'a', 'e', 'i', 'o', 'u' };
+		char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
 		
 		for (int i = 0; i < str.length(); i++) {
-			for (int j = 0; j < vowels .length; j++) {
-				if (str.charAt(i) == vowels [j]) {
+			for (int j = 0; j < vowels.length; j++) {
+				if (str.charAt(i) == vowels[j]) {
 					vowelCount2++;
 				}
 			}

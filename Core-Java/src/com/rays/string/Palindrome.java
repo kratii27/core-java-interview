@@ -11,9 +11,9 @@ public class Palindrome {
 			reverse = reverse + name.charAt(i);
 		}
 		
-		System.out.println(reverse.toString());
+		System.out.println(reverse);
 		
-		if (name.equals(reverse.toString())) {
+		if (name.equals(reverse)) {
 			System.out.println("it is palindrome string");
 		} else {
 			System.out.println("it is not palindrome string");
