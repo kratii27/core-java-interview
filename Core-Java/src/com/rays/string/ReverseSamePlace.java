@@ -3,7 +3,7 @@ package com.rays.string;
 public class ReverseSamePlace {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String str = "Ajay Pratap";
 		String[] parts = str.split(" ");
 		StringBuffer name = new StringBuffer();
@@ -27,10 +27,7 @@ public class ReverseSamePlace {
 			reverse = reverse + " ";
 		}
 		
-		System.out.println("Without using String buffer "+reverse);
-		
-		
-		
+		System.out.println("Without using String buffer "+reverse);		
 		
 	}
 
