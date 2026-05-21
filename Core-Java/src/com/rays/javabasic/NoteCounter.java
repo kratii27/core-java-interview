@@ -1,7 +1,5 @@
 package com.rays.javabasic;
 
-import java.util.Scanner;
-
 public class NoteCounter {
     public static void main(String[] args) {
 
