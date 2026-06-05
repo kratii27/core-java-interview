@@ -1,4 +1,4 @@
-package com.rays.blog;
+package com.rays.javabasic.blog;
 
 public class ExampleClone implements Cloneable {
     public void display() {

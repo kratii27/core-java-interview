@@ -2,21 +2,22 @@ package com.rays.oop;
 
 public class ConstructorCalling {
 
-    public String firstName;
-    public String lastName;
-    public String address;
+   public String name;
+   public String address;
+   public String phoneNo;
 
-    public ConstructorCalling(String firstName, String lastName){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        System.out.println(firstName);
-        System.out.println(lastName);
+   public ConstructorCalling(String name, String address){
+       this.name = name;
+       this.address = address;
+       System.out.println(name);
+       System.out.println(address);
+   }
+
+    public ConstructorCalling(String name, String address, String phoneNo){
+        this(name, address);
+        this.phoneNo = phoneNo;
+        System.out.println(phoneNo);
     }
 
-    public ConstructorCalling(String firstName, String lastName, String address){
-        this(firstName, lastName);
-        this.address = address;
-        System.out.println(address);
-    }
 
 }

@@ -12,26 +12,26 @@ public class Account {
         this.balance = balance;
     }
 
-    public void deposit(double amount){
-        balance = balance + amount;
-        System.out.println("TOTAL BALANCE: " + balance);
+    public void deposit(double amt){
+        System.out.println("current balance; " + balance);
+        balance = balance + amt;
+        System.out.println("balance after deposit; " + balance);
     }
 
-    public void withdrawal(double amount){
-        if (amount > balance){
-            System.out.println("not sufficient balance");
+    public void withdrawal(double amt){
+        System.out.println("current balance; " + balance);
+        if ((balance-2000) < amt){
+            System.out.println("low balance");
         } else {
-            balance = balance - amount;
-            System.out.println("TOTAL BALANCE: " + balance);
+            balance = balance - amt;
+            System.out.println("balance after withdrawal; " + balance);
         }
-
     }
 
     public static void main(String[] args) {
-        Account ac = new Account();
-        ac.setBalance(6000);
-        ac.deposit(2000);
-        ac.withdrawal(200);
+        Account a = new Account();
+        a.setBalance(5000.0);
+        a.deposit(200);
+        a.withdrawal(3000);
     }
-
 }

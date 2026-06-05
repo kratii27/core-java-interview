@@ -1,4 +1,4 @@
-package com.rays.blog;
+package com.rays.javabasic.blog;
 
 import java.io.*;
 

@@ -13,7 +13,7 @@ public class OccuranceOfString {
 					count++;
 				}
 			}
-			if (count>1) {
+			if (count>0) {
 				System.out.println(ch + " repeats " + count + " times");
 			}
 			count = 0;
