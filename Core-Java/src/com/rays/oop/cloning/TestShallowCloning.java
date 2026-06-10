@@ -5,7 +5,7 @@ public class TestShallowCloning {
         ShallowCloning sc = new ShallowCloning();
         sc.balance = 200;
 
-        ShallowCloning sc2 = (ShallowCloning) sc.clone();
+        ShallowCloning sc2 = (ShallowCloning) sc;
         sc.balance = 400;
 
         System.out.println(sc.balance);
