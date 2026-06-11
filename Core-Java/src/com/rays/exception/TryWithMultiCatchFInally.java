@@ -10,7 +10,7 @@ public class TryWithMultiCatchFInally {
 			
 		} catch (NullPointerException e) {
 			System.out.println(e);
-
+			
 		} catch (StringIndexOutOfBoundsException e) {
 			System.out.println(e);
 			System.exit(0);

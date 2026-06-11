@@ -4,7 +4,7 @@ public class TryWithFinally {
 
 	public static void main(String[] args) {
 
-		String s = "Kapil";
+		String s = "krati";
 		try {
 			s.charAt(10);
 			System.out.println("try");
