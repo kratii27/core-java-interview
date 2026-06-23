@@ -19,7 +19,7 @@ public class MapIterator {
 			System.out.println(o);
 
 		}
-		// System.out.println(m);
+		 System.out.println(m);
 
 		for (Object o : m.values()) {
 
