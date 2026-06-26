@@ -13,7 +13,7 @@ public class SplitFileTest {
     	public static void main(String[] args) throws IOException {
 
 		// 1. To count no of line of file
-		String s = "C://Users//hp//Desktop//IO//split.txt";
+		String s = "F://io/3lines.txt";
 		int count = 0;
 		int nol = 2;
 		File file = new File(s);
@@ -47,7 +47,7 @@ public class SplitFileTest {
 		for (int i = 1; i <= nof; i++) {
 
 			BufferedWriter bw = new BufferedWriter(
-					new FileWriter("C://Users//hp//Desktop//IO//aftresplit" + i + ".txt"));
+					new FileWriter("F://io/3lines" + i + ".txt"));
 
 			// 5. here we write nol in files
 			for (int j = 1; j <= nol; j++) {

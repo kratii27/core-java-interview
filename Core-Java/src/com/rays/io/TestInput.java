@@ -16,7 +16,11 @@ public class TestInput {
 
 		int b = sc.nextInt();
 
+		System.out.println("jdsfgh");
+		String str = sc.next();
+		System.out.println(str);
 		int c = a + b;
+
 
 		System.out.println("sum: " + c);
 

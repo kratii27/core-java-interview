@@ -13,7 +13,7 @@ public class TestExtSerialization {
 		e.address = "indore";
 		e.salary = 50000;
 
-		FileOutputStream file = new FileOutputStream("C:\\Users\\Lenovo\\Desktop\\io\\ExtObj.txt");
+		FileOutputStream file = new FileOutputStream("F:\\io\\ExtObj.txt");
 
 		ObjectOutputStream out = new ObjectOutputStream(file);
 

@@ -7,7 +7,7 @@ public class TestExtDeSerialization {
 
 	public static void main(String[] args) throws Exception {
 
-		FileInputStream file = new FileInputStream("C:\\Users\\Lenovo\\Desktop\\io\\ExtObj.txt");
+		FileInputStream file = new FileInputStream("F:\\io\\ExtObj.txt");
 
 		ObjectInputStream in = new ObjectInputStream(file);
 
