@@ -6,7 +6,7 @@ public class Account {
 
     public void setBalance(int balance) {
         try {
-            Thread.sleep(1000);
+            Thread.sleep(400);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -16,14 +16,14 @@ public class Account {
     public int getBalance() {
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(400);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         return balance;
     }
 
-    public  void deposite(String name, int amt) {
+    public synchronized void deposite(String name, int amt) {
 
 		int total = getBalance() + amt;
 

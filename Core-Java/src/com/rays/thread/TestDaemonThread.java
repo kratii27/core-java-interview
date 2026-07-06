@@ -11,7 +11,7 @@ public class TestDaemonThread {
 
         for (int i = 1; i <= 5; i++) {
 			try {
-				Thread.sleep(100);
+				Thread.sleep(600);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}

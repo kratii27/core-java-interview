@@ -17,7 +17,7 @@ public class Employee implements Externalizable {
 		out.writeInt(id);
 		out.writeObject(name);
 		out.writeObject(address);
-		out.writeInt(salary);
+		// out.writeInt(salary);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class Employee implements Externalizable {
 		id = in.readInt();
 		name = (String) in.readObject();
 		address = (String) in.readObject();
-		salary = in.readInt();
+		// salary = in.readInt();
 	}
 
 }

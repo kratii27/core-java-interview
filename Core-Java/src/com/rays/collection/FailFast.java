@@ -14,7 +14,7 @@ public class FailFast {
 		l.add(2);
 
 		Iterator it = l.iterator();
-		l.add(5);
+		// l.add(5);
 //		l.add("abc");
 
 //        l.add(4);    // Here we cannot add or remove elements when list object
@@ -23,5 +23,7 @@ public class FailFast {
 		while (it.hasNext()) {
 			System.out.println(it.next());
 		}
+		System.out.println("jsdbfc"+l);
+		
 	}
 }
