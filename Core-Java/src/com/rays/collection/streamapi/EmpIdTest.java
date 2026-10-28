@@ -13,8 +13,11 @@ public class EmpIdTest {
 		l.add(new Emp(2, "abc"));
 		l.add(new Emp(8, "xyz"));
 
-		l.stream().sorted(Comparator.comparingInt(Emp::getId))
-				.forEach(e -> System.out.println(e.getId() + " =" + e.getName()));
+		// l.stream().sorted(Comparator.comparingInt(Emp::getId))
+		// 		.forEach(e -> System.out.println(e.getId() + " =" + e.getName()));
+
+		l.stream().map(e -> e.getId()).sorted()
+		.forEach(e -> System.out.println(e.getId() + " =" + e.getName()));
 
 	}
 

@@ -5,21 +5,21 @@ public class Account {
     public int balance;
 
     public void setBalance(int balance) {
-        try {
-            Thread.sleep(400);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // try {
+        //     Thread.sleep(400);
+        // } catch (InterruptedException e) {
+        //     e.printStackTrace();
+        // }
         this.balance = balance;
     }
 
     public int getBalance() {
 
-        try {
-            Thread.sleep(400);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // try {
+        //     Thread.sleep(400);
+        // } catch (InterruptedException e) {
+        //     e.printStackTrace();
+        // }
         return balance;
     }
 

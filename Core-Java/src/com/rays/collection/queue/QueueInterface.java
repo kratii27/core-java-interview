@@ -8,7 +8,7 @@ public class QueueInterface {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Queue queue = new PriorityQueue();
+		Queue queue = new PriorityQueue(2);
 //		Queue queue1 = new LinkedList();
 
 		queue.offer(100);

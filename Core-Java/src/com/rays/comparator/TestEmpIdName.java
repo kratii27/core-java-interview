@@ -15,7 +15,8 @@ public class TestEmpIdName {
 		l.add(new Employee("krati", 1, 5000));
 		l.add(new Employee("a", 5, 2000));
 
-		EmployeeShortByIdName e = new EmployeeShortByIdName();
+		// EmployeeShortByIdName e = new EmployeeShortByIdName();
+		EmployeeShortBySalary e = new EmployeeShortBySalary();
 		Collections.sort(l, e);
 		Iterator it = l.iterator();
 		while (it.hasNext()) {

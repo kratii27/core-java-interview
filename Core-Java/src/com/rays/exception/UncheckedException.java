@@ -22,7 +22,7 @@ public class UncheckedException {
 
 	private static void son() {
 
-		throw new RuntimeException("I mad a mistak...");
+		throw new RuntimeException("I made a mistake...");
 
 	}
 
